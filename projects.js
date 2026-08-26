@@ -17,7 +17,7 @@ const PROJECTS = [
     blurb: "A Web-GPU implementation of the Celeris wave model by Patrick Lynett at USC.",
     url: "./celeris/",
     repo: "https://github.com/gutierrad/celeris",
-    tags: ["JavaScript", "Visualization"],
+    tags: ["celeris", "Web-GPU", "JavaScript", "Visualization"],
     status: "live",
     year: 2026,
   },
