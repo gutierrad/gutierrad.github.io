@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>David Gutierrez-Barcelo — Projects</title>
+  <meta name="description" content="An index of projects by David Gutierrez-Barcelo.">
+  <meta name="color-scheme" content="light dark">
+  <link rel="stylesheet" href="./style.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>&#127760;</text></svg>">
+</head>
+<body>
+  <a class="skip" href="#projects">Skip to projects</a>
+
+  <div class="wrap">
+    <header class="masthead">
+      <div class="masthead-text">
+        <h1 id="site-name">David Gutierrez-Barcelo</h1>
+        <p class="tagline" id="site-tagline">Things I've prepared and put on the web.</p>
+        <nav class="links" id="site-links" aria-label="Elsewhere"></nav>
+      </div>
+      <button class="theme-toggle" id="theme-toggle" type="button" aria-label="Switch color theme">
+        <span aria-hidden="true" id="theme-icon">◐</span>
+      </button>
+    </header>
+
+    <main id="projects">
+      <div class="section-head">
+        <h2>Projects</h2>
+        <div class="filters" id="filters" role="group" aria-label="Filter projects by tag"></div>
+      </div>
+      <ul class="grid" id="grid"></ul>
+      <p class="empty" id="empty" hidden>Nothing matches that filter.</p>
+    </main>
+
+    <footer class="site-footer">
+      <p>Built as a static site and hosted on GitHub Pages.</p>
+    </footer>
+  </div>
+
+  <script src="./projects.js"></script>
+  <script src="./main.js"></script>
+</body>
+</html>
