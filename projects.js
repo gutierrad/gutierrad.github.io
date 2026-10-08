@@ -21,6 +21,15 @@ const PROJECTS = [
     status: "live",
     year: 2026,
   },
+  {
+    name: "Kelvin waves tracker",
+    blurb: "A viewer to track the progress of Kelvin Waves on their way up the California Coast.",
+    url: "./kelvin-wave-tracker/",
+    repo: "https://github.com/gutierrad/kelvin-wave-tracker",
+    tags: ["El Niño", "Sea level", "Kelvin waves", "Visualization"],
+    status: "live",
+    year: 2026,
+  },
   // {
   //   name: "Project Two",
   //   blurb: "TODO: describe what this project does in a sentence or two.",
