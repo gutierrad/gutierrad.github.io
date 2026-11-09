@@ -30,6 +30,15 @@ const PROJECTS = [
     status: "live",
     year: 2026,
   },
+  {
+    name: "Monterey Bay waves",
+    blurb: "Wave, wind and water-level forecast for Santa Cruz and Monterey Bay from NOAA and ECMWF models, updated twice a day.",
+    url: "./monterey-bay-waves/",
+    repo: "https://github.com/gutierrad/monterey-bay-waves",
+    tags: ["Waves", "Forecast", "Monterey Bay", "Visualization"],
+    status: "live",
+    year: 2026,
+  },
   // {
   //   name: "Project Two",
   //   blurb: "TODO: describe what this project does in a sentence or two.",
